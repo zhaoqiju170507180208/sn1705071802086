@@ -10,7 +10,7 @@ import android.util.Log;
  */
 
 public class HomeworkOpenHelper extends SQLiteOpenHelper {
-    private String HOMEWORK_TB_SQL="create table home(id integer primary key autoincrement,name text,age text,height text)";
+    private String HOMEWORK_TB_SQL="create table homework(id integer primary key autoincrement,name text,age text,height text)";
     //创建数据库
     public HomeworkOpenHelper(Context context){
         super(context,"home.db",null,1);
