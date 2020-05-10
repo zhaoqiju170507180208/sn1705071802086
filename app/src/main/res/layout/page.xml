@@ -16,4 +16,10 @@
         android:onClick="start2"
         android:id="@+id/homework_btn2"
         android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="match_parent"
+        android:text="作业3"
+        android:onClick="start3"
+        android:id="@+id/homework_btn3"
+        android:layout_height="wrap_content" />
 </LinearLayout>

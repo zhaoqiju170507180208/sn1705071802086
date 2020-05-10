@@ -26,5 +26,10 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
 
     }
+    public void start3(View view) {
+        //界面跳转
+        Intent intent = new Intent(this, homework3.class);
+        startActivity(intent);
 
+    }
 }
